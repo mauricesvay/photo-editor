@@ -1,0 +1,28 @@
+{
+    "name": "photo-editor",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "cozy-type": "static",
+    "cozy-displayName": "PhotoEditor",
+    "icon-path": "main_icon.png",
+    "cozy-permissions": {
+        "Photo": {
+            "description": "To edit photos."
+        }
+    },
+    "dependencies": {
+        "cozysdk-client": "0.0.5"
+    },
+    "devDependencies": {
+        "babel-core": "^6.7.6",
+        "babel-loader": "^6.2.4",
+        "babel-preset-es2015": "^6.6.0",
+        "webpack": "^1.13.0"
+    }
+}
